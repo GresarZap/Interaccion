@@ -1,0 +1,3 @@
+ejecutar con servidor.
+Para mas facilidad con vscode abrir el proyecto y desde index.html abrir con liveserver(click derecho>abrir con live server).
+liveserver es una extension de vscode.
