@@ -30,9 +30,9 @@ let index = 0;
 async function main() {
     let corner = await loadFile('/data/background/corner.json');
     corner = await JSON.parse(corner);
-    let edge = await loadFile('../data/background/edge.json');
+    let edge = await loadFile('/data/background/edge.json');
     edge = await JSON.parse(edge);
-    let center = await loadFile('../data/background/center.json');
+    let center = await loadFile('/data/background/center.json');
     center = await JSON.parse(center);
 
     width = 8;
