@@ -28,7 +28,7 @@ let uMatrizModelo;
 let index = 0;
 
 async function main() {
-    let corner = await loadFile('../data/background/corner.json');
+    let corner = await loadFile('/data/background/corner.json');
     corner = await JSON.parse(corner);
     let edge = await loadFile('../data/background/edge.json');
     edge = await JSON.parse(edge);
