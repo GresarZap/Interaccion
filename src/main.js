@@ -146,7 +146,7 @@ async function creaShader() {
     // 3. Creacion de Shaders
     // Shader Vertex
     shaderDeVertice = gl.createShader(gl.VERTEX_SHADER);
-    const vertexCode = await loadFile('../shaders/shader.vert');
+    const vertexCode = await loadFile('/shaders/shader.vert');
     gl.shaderSource(shaderDeVertice, vertexCode.trim());
     gl.compileShader(shaderDeVertice);
 
@@ -156,7 +156,7 @@ async function creaShader() {
 
     // Shader Fragment
     shaderDeFragmento = gl.createShader(gl.FRAGMENT_SHADER);
-    const fragCode = await loadFile('../shaders/shader.frag');
+    const fragCode = await loadFile('/shaders/shader.frag');
     gl.shaderSource(shaderDeFragmento, fragCode.trim());
     gl.compileShader(shaderDeFragmento);
 
