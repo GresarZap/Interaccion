@@ -1,7 +1,7 @@
 export async function loadFile(path) {
     try {
 
-        let url = buildUrl(path);
+        let url = buildUrl('Interaccion'+path);
 
         const response = await fetch(url);
         
